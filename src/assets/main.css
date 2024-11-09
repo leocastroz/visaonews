@@ -1,10 +1,22 @@
-@import './base.css';
+/* @import './base.css'; */
 
-#app {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* #app {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   font-weight: normal;
+  align-items: center;
+  background-color: red;
+  text-align: center;
+  display: grid;
+  height: 100vh;
+  justify-content: center;
 }
 
 a,
@@ -32,4 +44,4 @@ a,
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }
-}
+} */

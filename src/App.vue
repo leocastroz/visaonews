@@ -4,8 +4,8 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+  <!-- <header> -->
+    <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
@@ -14,14 +14,53 @@ import HelloWorld from './components/HelloWorld.vue'
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav>
-    </div>
-  </header>
+    </div> -->
+    <main>
+      <div>
+        <p>Em breve nossa Landing Page</p>
+        <a href="https://destaquenewsr7.blogspot.com/" target="_blank">Blog News &#10153;</a>
+        <img alt="Vue logo" class="logo" src="@/assets/logo.png" width="250" />
+        <p class="direitos">© 2024. Todos os direitos reservados.</p>
+      </div>
+    </main>
+  <!-- </header> -->
 
-  <RouterView />
+  <!-- <RouterView /> -->
 </template>
 
 <style scoped>
-header {
+main {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(255, 246, 246);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+  display: grid;
+  text-align: center;
+}
+
+a {
+  background-color: rgb(137 149 146);
+  color: white;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+p {
+  color: #899592;
+}
+
+.direitos {
+  font-size: 12px;
+}
+/* header {
   line-height: 1.5;
   max-height: 100vh;
 }
@@ -81,5 +120,5 @@ nav a:first-of-type {
     padding: 1rem 0;
     margin-top: 1rem;
   }
-}
+} */
 </style>
